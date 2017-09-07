@@ -1,0 +1,273 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAAD65B61F61B292006C44AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAD65B51F61B292006C44AF /* main.m */; };
+		DAAD65BE1F61B2A1006C44AF /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAD65BD1F61B2A1006C44AF /* Doctor.m */; };
+		DAAD65C11F61B2AC006C44AF /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAD65C01F61B2AC006C44AF /* Patient.m */; };
+		DAAD65C41F61BED3006C44AF /* Prescription.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAD65C31F61BED3006C44AF /* Prescription.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DAAD65B01F61B292006C44AF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DAAD65B21F61B292006C44AF /* Doctor&Patient2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Doctor&Patient2"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAAD65B51F61B292006C44AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAAD65BC1F61B2A1006C44AF /* Doctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Doctor.h; sourceTree = "<group>"; };
+		DAAD65BD1F61B2A1006C44AF /* Doctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
+		DAAD65BF1F61B2AC006C44AF /* Patient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
+		DAAD65C01F61B2AC006C44AF /* Patient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
+		DAAD65C21F61BED3006C44AF /* Prescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prescription.h; sourceTree = "<group>"; };
+		DAAD65C31F61BED3006C44AF /* Prescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Prescription.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAAD65AF1F61B292006C44AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAAD65A91F61B292006C44AF = {
+			isa = PBXGroup;
+			children = (
+				DAAD65B41F61B292006C44AF /* Doctor&Patient2 */,
+				DAAD65B31F61B292006C44AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAAD65B31F61B292006C44AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAAD65B21F61B292006C44AF /* Doctor&Patient2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAAD65B41F61B292006C44AF /* Doctor&Patient2 */ = {
+			isa = PBXGroup;
+			children = (
+				DAAD65B51F61B292006C44AF /* main.m */,
+				DAAD65BC1F61B2A1006C44AF /* Doctor.h */,
+				DAAD65BD1F61B2A1006C44AF /* Doctor.m */,
+				DAAD65BF1F61B2AC006C44AF /* Patient.h */,
+				DAAD65C01F61B2AC006C44AF /* Patient.m */,
+				DAAD65C21F61BED3006C44AF /* Prescription.h */,
+				DAAD65C31F61BED3006C44AF /* Prescription.m */,
+			);
+			path = "Doctor&Patient2";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAAD65B11F61B292006C44AF /* Doctor&Patient2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAAD65B91F61B292006C44AF /* Build configuration list for PBXNativeTarget "Doctor&Patient2" */;
+			buildPhases = (
+				DAAD65AE1F61B292006C44AF /* Sources */,
+				DAAD65AF1F61B292006C44AF /* Frameworks */,
+				DAAD65B01F61B292006C44AF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Doctor&Patient2";
+			productName = "Doctor&Patient2";
+			productReference = DAAD65B21F61B292006C44AF /* Doctor&Patient2 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAAD65AA1F61B292006C44AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Paul;
+				TargetAttributes = {
+					DAAD65B11F61B292006C44AF = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DAAD65AD1F61B292006C44AF /* Build configuration list for PBXProject "Doctor&Patient2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DAAD65A91F61B292006C44AF;
+			productRefGroup = DAAD65B31F61B292006C44AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAAD65B11F61B292006C44AF /* Doctor&Patient2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAAD65AE1F61B292006C44AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAAD65C11F61B2AC006C44AF /* Patient.m in Sources */,
+				DAAD65BE1F61B2A1006C44AF /* Doctor.m in Sources */,
+				DAAD65B61F61B292006C44AF /* main.m in Sources */,
+				DAAD65C41F61BED3006C44AF /* Prescription.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DAAD65B71F61B292006C44AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DAAD65B81F61B292006C44AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DAAD65BA1F61B292006C44AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAAD65BB1F61B292006C44AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAAD65AD1F61B292006C44AF /* Build configuration list for PBXProject "Doctor&Patient2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAAD65B71F61B292006C44AF /* Debug */,
+				DAAD65B81F61B292006C44AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAAD65B91F61B292006C44AF /* Build configuration list for PBXNativeTarget "Doctor&Patient2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAAD65BA1F61B292006C44AF /* Debug */,
+				DAAD65BB1F61B292006C44AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAAD65AA1F61B292006C44AF /* Project object */;
+}
